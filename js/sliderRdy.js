@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$("#lightSlider").lightSlider({
-		item: 3,
+		item: 2,
 		autoWidth:true,
 		slideMove: 2,
 		slideMargin:10,

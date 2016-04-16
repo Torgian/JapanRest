@@ -51,6 +51,7 @@ header {
 }
 
 #lightSlider img {
+	overflow:hidden;
 	max-width:200px;
 }
 

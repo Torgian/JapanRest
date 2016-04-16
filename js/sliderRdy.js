@@ -1,9 +1,9 @@
 $(document).ready(function() {
 	$("#lightSlider").lightSlider({
-		item: 2,
+		item: 3,
 		autoWidth:true,
-		slideMove: 2,
-		slideMargin:10,
+		slideMove: 1,
+		slideMargin:5,
 
 		addClass: '',
 		mode: "slide",

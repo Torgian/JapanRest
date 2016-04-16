@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$("#lightSlider").lightSlider({
-		item: 3,
-		autoWidth:false,
+		item: 2,
+		autoWidth:true,
 		slideMove: 2,
 		slideMargin:10,
 

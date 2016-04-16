@@ -13,24 +13,16 @@
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
+    <!-- dropdown js -->
+    <script src="js/dropdown.js"></script>
     <!-- Lightslider -->
     <link type="text/css" rel="stylesheet" href="css/lightslider.css">
-    
-
-    <!-- Plugin CSS -->
-    <!--<link rel="stylesheet" href="css/animate.min.css" type="text/css">-->
 
     <!-- Custom CSS -->
-    <!--<link rel="stylesheet" href="css/creative.css" type="text/css">-->
+    
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 
 </head>
 
@@ -40,7 +32,7 @@
                 <img src="css/sushiTitle.svg" />      
         </div>
     </header>-->
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -53,36 +45,73 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-          </ul>
-         
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li> 
+                  </ul>
+                </li> 
+
+           
+         </ul>
         </div>
       </div>
 </nav>
+
     <div class="row">
         <ul id="lightSlider">
             <li>
-                <h3>First Slide</h3>
+                <img src="img/room1.jpg" />
             </li>
             <li>
-                <h3>Second Slider</h3>
+                <img src="img/room2.jpg" />
             </li>
             <li>
-                <h3>Third Slider</h3>
+                <img src="img/room3.jpg" />
             </li>
             <li>
-                <h3>Forth Slider</h3>
+                <img src="img/room4.jpg" />
             </li>
             <li>
-                <h3>Fift Slider</h3>
+                <img src="img/food1.jpg" />
             </li>
             <li>
-                <h3>Six Slider</h3>
+                <img src="img/food2.jpg" />
+            </li>
+            <li>
+                <img src="img/food3.jpg" />
+            </li>
+            <li>
+                <img src="img/food4.jpg" />
+            </li>
+            <li>
+                <img src="img/food5.jpg" />
+            </li>
+            <li>
+                <img src="img/food6.jpg" />
+            </li>
+            <li>
+                <img src="img/food7.jpg" />
+            </li>
+            <li>
+                <img src="img/food8.jpg" />
+            </li>
+            <li>
+                <img src="img/food9.jpg" />
+            </li>
+            <li>
+                <img src="img/food10.jpg" />
             </li>
         </ul>
-    
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+
 
  
     <section id="contact">
@@ -90,8 +119,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Dine with us today!</h2>
+
                     <hr class="primary">
-                    <h4>台中市西屯區台灣大道西段992號</h4>
+                    <h4 id="address" ><a href="https://www.google.com.tw/maps/place/J-Mall/@24.182732,120.6159549,19z/data=!4m2!3m1!1s0x346915fc219edf0d:0xb5ed33b07420abf0">台中市西屯區台灣大道西段992號</a></h4>
                     <p>澄清醫院旁 J-MALL</p>
                 </div>
             </div>
@@ -117,10 +147,12 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+   
 
     <!-- Plugin JavaScript -->
     <script src="js/sliderRdy.js"></script>
     <script src="js/lightslider.js"></script>
+    <script src="js/addressFunc.js"></script>
     <!-- Custom Theme JavaScript -->
     
 

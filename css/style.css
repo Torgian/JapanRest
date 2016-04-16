@@ -1,5 +1,6 @@
 body {
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+	overflow: hidden;
 }
 
 header {
@@ -20,9 +21,41 @@ header {
 }
 
 .navbar-brand {
+
 	height:100%;
 }
 
 .navbar-toggle {
 	top: 1em;
+
+	background-color:whitesmoke;
 	}
+
+.navbar-nav {
+	float:right;
+}
+
+.navbar-nav a {
+	color:black;
+}
+
+.navbar {
+
+	border-bottom: red solid 1px;
+	/* Rectangle 1: */
+	background-image: linear-gradient(90deg, rgba(255,255,255,0.50) 40%, #F50101 130%);
+}
+
+.icon-bar {
+	background-color:gray;
+}
+
+#lightSlider img {
+	max-width:200px;
+}
+
+
+
+
+
+

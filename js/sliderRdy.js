@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	$("#lightSlider").lightSlider({
 		item: 3,
-		autoWidth:false,
-		slideMove: 1,
+		autoWidth:true,
+		slideMove: 2,
 		slideMargin:10,
 
 		addClass: '',
@@ -15,7 +15,7 @@ $(document).ready(function() {
 		auto: true,
 		loop: true,
 		slideEndAnimation: true,
-		pause: 2000,
+		pause: 3000,
 
 		keyPress: false,
 		controls: true,
@@ -26,11 +26,11 @@ $(document).ready(function() {
 		adaptiveHeight: false,
 
 		vertical: false,
-		verticalHeight: 500,
+		verticalHeight: 200,
 		vThumbWidth: 100,
 
 		thumbItem:10,
-		pager: true,
+		pager: false,
 		gallery: false,
 		galleryMargin: 5,
 		thumbMargin: 5,

@@ -50,8 +50,11 @@ header {
 	background-color:gray;
 }
 
+.dropdown-menu {
+	min-width: 0;
+}
 #lightSlider img {
-	overflow:hidden;
+	overflow: hidden;
 	max-width:150px;
 }
 
